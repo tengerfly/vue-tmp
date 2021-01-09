@@ -1,0 +1,6 @@
+{
+    "hooks": {
+        "pre-commit": "echo '哈喽，小伙伴们，在这里可以做测试相关的逻辑哦，一般结合公司的 ci'",
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+}
